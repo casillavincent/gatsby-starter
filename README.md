@@ -10,8 +10,6 @@
 
 ## Components
 
----
-
 - Header
 
 ```react
