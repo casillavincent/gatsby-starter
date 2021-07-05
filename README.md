@@ -10,7 +10,7 @@
 
 ## Components
 
-- Header
+- ### Header
 
 ```javascript
 <Header>
