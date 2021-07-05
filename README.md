@@ -12,7 +12,7 @@
 
 - Header
 
-```react
+```javascript
 <Header>
   <Logo>Starter</Logo>
   <Navigation>
