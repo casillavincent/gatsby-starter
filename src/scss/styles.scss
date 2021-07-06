@@ -7,8 +7,22 @@
 // Normalize
 @import "./normalize";
 
+// Abstracts
+@import "./abstracts/abstracts";
+
 // Typography
 @import "./typography/typography";
 
 // Components
 @import "./components/header";
+
+// Buttons
+@import "./components/buttons";
+
+/* Hero Section */
+#hero-section {
+  background-image: url("../assets/hero.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

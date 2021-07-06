@@ -15,6 +15,7 @@ const StyledHeader = styled.header`
   justify-content: space-between;
   align-items: center;
   background-color: rgb(250, 250, 250);
+
   @media screen and (min-width: 50em) {
     justify-content: space-around;
   }
@@ -43,6 +44,7 @@ const StyledNavigation = styled.nav`
     width: auto;
     height: auto;
     min-height: unset;
+    background-color: transparent;
   }
 `
 
@@ -68,10 +70,6 @@ const StyledLink = styled(Link)`
   align-items: center;
   justify-content: center;
   border-radius: 7px;
-  transition: 0.15s ease-out;
-  &:hover {
-    background-color: rgb(217, 217, 217);
-  }
 `
 
 const StyledSiteBranding = styled.div`

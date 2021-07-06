@@ -2,5 +2,8 @@
   a {
     font-size: 1.25em;
     text-transform: uppercase;
+    &:hover {
+      background: none;
+    }
   }
 }
